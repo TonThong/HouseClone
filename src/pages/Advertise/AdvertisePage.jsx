@@ -18,7 +18,7 @@ function Advertise() {
   const [branch, setBranch] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/advertise")
+    fetch("https://house-clone-api.vercel.app/advertise")
       .then((res) => res.json())
       .then((items) => {
         setServices(items[0]);

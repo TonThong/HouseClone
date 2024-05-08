@@ -13,7 +13,7 @@ function SearchPage({ ...props }) {
   const [data, setData] = useState();
   const [path, setPath] = useState(location.pathname);
 
-  const pathApi = "http://localhost:3000" + path;
+  const pathApi = "https://house-clone-api.vercel.app/" + path;
 
   if (path != location.pathname) {
     setPath(location.pathname);

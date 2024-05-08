@@ -15,7 +15,7 @@ function ProjectPage() {
   const [productsCatalog, setProductsCatalog] = useState([]);
   const [path, setPath] = useState("");
 
-  const pathApi = "http://localhost:3000/projects" + path;
+  const pathApi = "https://house-clone-api.vercel.app/projects" + path;
 
   if (path != location.pathname) {
     setPath(location.pathname);

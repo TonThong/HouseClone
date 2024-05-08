@@ -18,7 +18,7 @@ function NewsPage({ ...props }) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:3000/home")
+    fetch("https://house-clone-api.vercel.app/home")
       .then((res) => res.json())
       .then((items) => {
         setProductsCatalog(items[4].productsCatalog);
