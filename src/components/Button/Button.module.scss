@@ -1,0 +1,25 @@
+.button {
+  padding: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: 0.15s ease;
+  width: 100%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--primary-hover);
+  }
+}
+
+.text {
+  background-color: transparent;
+  color: var(--text-hint);
+
+  &:hover {
+    background-color: transparent;
+  }
+}

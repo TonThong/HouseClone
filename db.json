@@ -1,0 +1,603 @@
+{
+  "home": [
+    {
+      "id": 1,
+      "type": "Featured",
+      "src": "src/images/homeIntro/1.jpg",
+      "name": "Upper Watt Residence / Seear-Budd Ross"
+    },
+    {
+      "id": 2,
+      "type": "Featured",
+      "src": "src/images/homeIntro/2.jpg",
+      "name": "A Home Around The Forest / YSLA Architects"
+    },
+    {
+      "id": 3,
+      "type": "Featured",
+      "src": "src/images/homeIntro/3.jpg",
+      "name": "The Promise of Accessibility: Can Modular Systems Contribute to Democratizing the Design Process?"
+    },
+    {
+      "id": 4,
+      "type": "Editor's Choice",
+      "src": "src/images/homeIntro/Projects/picture-1.jpg",
+      "name": "Rau Haus / Feldman Architecture"
+    },
+    {
+      "productsCatalog": [
+        {
+          "id": 1,
+          "src": "src/images/homeIntro/ProductsCatalog/1.jpeg"
+        },
+        {
+          "id": 2,
+          "src": "src/images/homeIntro/ProductsCatalog/2.jpeg"
+        },
+        {
+          "id": 3,
+          "src": "src/images/homeIntro/ProductsCatalog/3.jpg"
+        },
+        {
+          "id": 4,
+          "src": "src/images/homeIntro/ProductsCatalog/4.jpg"
+        }
+      ]
+    },
+    {
+      "projects": [
+        {
+          "title": "Arts District Warehouse / Sheft Farrace",
+          "time": "33 minutes ago",
+          "mainPicture": "src/images/homeIntro/Projects/picture-1.jpg",
+          "pictures": [
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg"
+          ],
+          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
+        },
+        {
+          "title": "Arts District Warehouse / Sheft Farrace",
+          "time": "33 minutes ago",
+          "mainPicture": "src/images/homeIntro/Projects/picture-1.jpg",
+          "pictures": [
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg"
+          ],
+          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
+        },
+        {
+          "title": "Arts District Warehouse / Sheft Farrace",
+          "time": "33 minutes ago",
+          "mainPicture": "src/images/homeIntro/Projects/picture-1.jpg",
+          "pictures": [
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg"
+          ],
+          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
+        },
+        {
+          "title": "Arts District Warehouse / Sheft Farrace",
+          "time": "33 minutes ago",
+          "mainPicture": "src/images/homeIntro/Projects/picture-1.jpg",
+          "pictures": [
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg",
+            "src/images/homeIntro/Projects/picture-1.jpg"
+          ],
+          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "paragraph": [
+        "We reach more than 17.9 million readers every month. With channels in English, Spanish, Portuguese and Chinese, and more than 40 new projects published daily, no other architecture network has the global scope we have. Our editorial team works with thousands of practices around the world to deliver the best architecture, as soon as possible.",
+        "So, feedback is critical for us. If you want to submit that great project you just completed —or a future project—, share a great story with our readers, report an error or give us a tip, please contact using this form.",
+        "Unbuilt Project Submission Requirements: Once you download the following folder, you’ll find detailed information on our requirements for publication. Upload all documents to Dropbox or Google Drive and paste the link at the end of the form.",
+        "This makes the review process much more efficient and allows us to get back to you as soon as possible. Please note that only submissions that meet the requirements will be reviewed."
+      ]
+    },
+    {
+      "id": 2,
+      "items": [
+        "285 million pageviews a month",
+        "3.4 million Facebook fans",
+        "4.2 million Instagram followers",
+        "1,700,000 Twitter followers"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "type",
+      "selection": [
+        "Subject",
+        "Submit a project",
+        "Submit an event",
+        "Submit a competition",
+        "Submit a news, article, etc",
+        "Send corrections",
+        "Send compliments or feedbacks",
+        "Report technical errors on the site",
+        "Other inquiries",
+        "Inquire about products/ materials"
+      ]
+    }
+  ],
+  "advertise": [
+    {
+      "id": 1,
+      "services": [
+        "Display Marketing",
+        "Social Media Marketing",
+        "Brand Marketing",
+        "Content Marketing"
+      ]
+    },
+    {
+      "id": 2,
+      "branches": [
+        "Select your Branch",
+        "Manufacturer/Construction Materials Provider",
+        "Architecture Office or Architecture Agency",
+        "Architecture Consultant or Engineer",
+        "Contractor",
+        "Agency for Manufacturers / Brands",
+        "Other"
+      ]
+    }
+  ],
+  "search": [
+    {
+      "id": "projects",
+      "data": {
+        "title": "Architecture Projects",
+        "numberResults": "53,953",
+        "description": "Top architecture projects recently published on T. The most inspiring residential architecture, interior design, landscaping, urbanism, and more from the world’s best architects.",
+        "filters": [
+          "Categories",
+          "Country/Region",
+          "Architects",
+          "Manufacturers",
+          "Year",
+          "Materials",
+          "Area",
+          "Color"
+        ],
+        "projects": [
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          },
+          {
+            "img": "src/images/homeIntro/Projects/picture-1.jpg",
+            "type": "Coffee Shop",
+            "title": "Slow But Better Cafe & Bakery"
+          }
+        ],
+        "offices": [
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "images",
+      "data": {
+        "title": "Architecture Project Images",
+        "numberResults": "645,550",
+        "description": "Top architecture images recently published on T. The most inspiring photography, architecture drawings and plans from the world’s best projects.",
+        "filters": [
+          "Type",
+          "Category",
+          "Space",
+          "BuildingElement",
+          "Fixtures&Furniture",
+          "Materials",
+          "Environment",
+          "Country/Region",
+          "Area",
+          "Architects"
+        ],
+        "images": [
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg",
+          "src/images/homeIntro/Projects/picture-1.jpg"
+        ]
+      }
+    },
+    {
+      "id": "products",
+      "data": {
+        "title": "Architecture Products",
+        "numberResults": "7,148",
+        "description": "Top products for architects recently published on T. The most inspiring materials, equipment, and more, from the world’s best manufacturers.",
+        "filters": [
+          "Categories",
+          "Country/Region",
+          "Show Only BIM Files",
+          "Manufacturers",
+          "Properties",
+          "Article Type",
+          "Use",
+          "Materials"
+        ],
+        "offices": [
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          },
+          {
+            "images": "src/images/Office/Office-1.jpg",
+            "name": "OMA"
+          }
+        ],
+        "products": [
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          },
+          {
+            "img": "src/images/Products/1.webp",
+            "type": "EQUITONE",
+            "title": "Fiber Cement Facade Panel - Tectiva"
+          }
+        ]
+      }
+    },
+    {
+      "id": "professionals",
+      "data": {
+        "title": "Professionals",
+        "numberResults": "69,106",
+        "description": "Top architects, engineers, consultants, and contractors responsible for the collaborative design, development, and construction of the most relevant projects recently published on T. Find the right team of professionals for your project to be the most successful.",
+        "filters": [
+          "Expertise",
+          "Activity Country/Region",
+          "Projects Category",
+          "Projects Area"
+        ],
+        "professionals": [
+          {
+            "images": [
+              "src/images/homeIntro/Projects/picture-1.jpg",
+              "src/images/Products/1.webp",
+              "src/images/Products/1.webp"
+            ],
+            "name": "Kengo Kuma and Associates",
+            "type": "Architecture Office",
+            "expertise": "Architecture Offices",
+            "categories": "Cultural Architecture, Offices, Infrastructure",
+            "workWith": "LPA, Consummate Engineering Services Pvt. Ltd., AKRF"
+          },
+          {
+            "images": [
+              "src/images/homeIntro/Projects/picture-1.jpg",
+              "src/images/Products/1.webp",
+              "src/images/Products/1.webp"
+            ],
+            "name": "Kengo Kuma and Associates",
+            "type": "Architecture Office",
+            "expertise": "Architecture Offices",
+            "categories": "Cultural Architecture, Offices, Infrastructure",
+            "workWith": "LPA, Consummate Engineering Services Pvt. Ltd., AKRF"
+          },
+          {
+            "images": [
+              "src/images/homeIntro/Projects/picture-1.jpg",
+              "src/images/Products/1.webp",
+              "src/images/Products/1.webp"
+            ],
+            "name": "Kengo Kuma and Associates",
+            "type": "Architecture Office",
+            "expertise": "Architecture Offices",
+            "categories": "Cultural Architecture, Offices, Infrastructure",
+            "workWith": "LPA, Consummate Engineering Services Pvt. Ltd., AKRF"
+          },
+          {
+            "images": [
+              "src/images/homeIntro/Projects/picture-1.jpg",
+              "src/images/Products/1.webp",
+              "src/images/Products/1.webp"
+            ],
+            "name": "Kengo Kuma and Associates",
+            "type": "Architecture Office",
+            "expertise": "Architecture Offices",
+            "categories": "Cultural Architecture, Offices, Infrastructure",
+            "workWith": "LPA, Consummate Engineering Services Pvt. Ltd., AKRF"
+          },
+          {
+            "images": [
+              "src/images/homeIntro/Projects/picture-1.jpg",
+              "src/images/Products/1.webp",
+              "src/images/Products/1.webp"
+            ],
+            "name": "Kengo Kuma and Associates",
+            "type": "Architecture Office",
+            "expertise": "Architecture Offices",
+            "categories": "Cultural Architecture, Offices, Infrastructure",
+            "workWith": "LPA, Consummate Engineering Services Pvt. Ltd., AKRF"
+          },
+          {
+            "images": [
+              "src/images/homeIntro/Projects/picture-1.jpg",
+              "src/images/Products/1.webp",
+              "src/images/Products/1.webp"
+            ],
+            "name": "Kengo Kuma and Associates",
+            "type": "Architecture Office",
+            "expertise": "Architecture Offices",
+            "categories": "Cultural Architecture, Offices, Infrastructure",
+            "workWith": "LPA, Consummate Engineering Services Pvt. Ltd., AKRF"
+          }
+        ]
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "123456",
+      "title": "PATTERN LAND / Cadence Architectsnone",
+      "images": [
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg"
+      ],
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+
+      "productsCatalog": [
+        {
+          "id": 1,
+          "src": "src/images/homeIntro/ProductsCatalog/1.jpeg"
+        },
+        {
+          "id": 2,
+          "src": "src/images/homeIntro/ProductsCatalog/2.jpeg"
+        },
+        {
+          "id": 3,
+          "src": "src/images/homeIntro/ProductsCatalog/3.jpg"
+        },
+        {
+          "id": 4,
+          "src": "src/images/homeIntro/ProductsCatalog/4.jpg"
+        }
+      ]
+    },
+    {
+      "id": "123457",
+      "introduce": "none",
+      "images": "null"
+    },
+    { "id": "123458", "introduce": "none", "images": "null" }
+  ]
+}

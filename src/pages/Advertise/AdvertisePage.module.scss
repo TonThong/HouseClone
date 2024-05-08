@@ -1,0 +1,158 @@
+.content {
+  position: relative;
+  min-height: 200px;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.background-primary {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background-color: var(--primary);
+}
+
+.background-white {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.content-main {
+  display: flex !important ;
+  position: relative;
+}
+
+.introduce {
+  align-self: center;
+  width: 60%;
+  color: white;
+  padding: 128px 0;
+  padding-right: 40px;
+}
+
+.introduce-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+.introduce-title-extra {
+  font-size: 2rem;
+  width: 70%;
+  font-weight: 600;
+  padding: 12px 0;
+}
+
+.introduce-text {
+  font-size: 1.3rem;
+  width: 90%;
+  padding: 12px 0;
+  font-weight: 400;
+}
+
+.introduce-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.introduce-item {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 120px;
+  padding: 12px;
+  background-color: var(--primary-hover);
+  cursor: pointer;
+  p {
+    font-size: 1.4rem;
+  }
+  svg {
+    position: absolute;
+    font-size: 1.4rem;
+    right: 18px;
+    bottom: 18px;
+  }
+}
+
+.copyright {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0;
+}
+
+.form-content {
+  width: 70%;
+}
+
+.form-title {
+  font-size: 1.6rem;
+  padding: 12px 0;
+}
+
+.form-input {
+  padding: 12px 6px;
+  margin: 12px 0;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+  width: 100%;
+  border: 1px solid var(--text-hint);
+
+  &:focus {
+    outline: none;
+    border-color: black;
+  }
+}
+
+.form-input-message {
+  padding: 12px 6px;
+  margin: 18px 0;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+  width: 100%;
+  border: 1px solid var(--text-hint);
+  height: 120px;
+
+  &:focus {
+    outline: none;
+    border-color: black;
+  }
+}
+
+.agree {
+  display: flex;
+  font-size: 0.9rem;
+  margin: 12px 0;
+}
+
+#agree {
+  margin-right: 12px;
+}
+
+.submit {
+  width: 100%;
+}

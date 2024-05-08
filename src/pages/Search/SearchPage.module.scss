@@ -1,0 +1,300 @@
+.wrapper {
+  position: relative;
+  width: 1040px !important;
+  padding-bottom: 64px !important;
+}
+
+.introduce {
+  position: relative;
+  left: 50%;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  transform: translateX(-50%);
+
+  & h3 {
+    position: relative;
+    font-size: 1.6rem;
+    padding-right: 12px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+      width: 1px;
+      height: 80%;
+      transform: translateY(-50%);
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  padding-bottom: 12px;
+
+  & div {
+    padding-left: 6px;
+    font-size: 1.2rem;
+    color: var(--text-hint);
+    text-align: center;
+    line-height: 30px;
+  }
+}
+
+.introduce-description {
+  line-height: 24px;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.filter-items {
+  list-style: none;
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+
+  &::-webkit-scrollbar {
+    border-radius: 10px;
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.1);
+  }
+}
+
+.filter-item {
+  padding: 6px 18px;
+  margin: 3px 6px;
+  border: 1px solid #76767663;
+  border-radius: 3px;
+  font-weight: 400;
+  height: 30px;
+  cursor: pointer;
+
+  &:first-child {
+    margin-left: 0px !important;
+  }
+
+  &:has(> .filter-check:checked) {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+  }
+
+  & label {
+    cursor: pointer;
+    width: 100%;
+  }
+
+  &:hover {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+  }
+}
+
+.filter-check {
+  display: none;
+}
+
+.content {
+  padding-bottom: 32px !important;
+}
+
+.image {
+  padding: 12px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.content-main {
+  width: 100%;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 48px;
+  row-gap: 88px;
+}
+
+.project {
+  &:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.project-title {
+  & p {
+    color: var(--text-hint);
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  & h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+}
+
+.offices {
+  margin-top: 64px;
+}
+
+.offices-items {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  overflow-x: auto;
+  &::-webkit-scrollbar {
+    border-radius: 10px;
+    height: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.1);
+  }
+}
+
+.offices {
+  padding: 32px 0px;
+  padding-bottom: 64px;
+  & h3 {
+    font-size: 1.6rem;
+  }
+}
+
+.offices-item {
+  padding: 12px 64px;
+
+  & img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  & h4 {
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 48px;
+  row-gap: 88px;
+}
+
+.product {
+  &:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.product-title {
+  & p {
+    color: var(--text-hint);
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  & h3 {
+    font-weight: 600;
+    font-size: 1.4rem;
+  }
+}
+
+.content-professional {
+  display: flex;
+  flex-direction: column;
+}
+
+.professional {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.professional-img {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 240px;
+  width: 320px;
+  & div {
+    width: 50%;
+    height: 50%;
+    padding: 3px 3px;
+    &:first-child {
+      width: 100%;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.professional-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 48px;
+}
+
+.professional-name {
+  font-size: 1.4rem;
+  & h3 {
+    color: var(--text-hint);
+    font-weight: 400;
+  }
+  & h4 {
+    font-size: 1.6rem;
+  }
+}
+
+.professional-category {
+  & h3 {
+    font-weight: 400;
+    padding: 12px 0;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    & p {
+      display: inline;
+      color: var(--primary);
+      cursor: pointer;
+    }
+  }
+}

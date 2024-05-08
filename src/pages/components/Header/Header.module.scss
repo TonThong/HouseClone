@@ -1,0 +1,17 @@
+.wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.content {
+  display: flex !important ;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar {
+  width: 500px;
+}

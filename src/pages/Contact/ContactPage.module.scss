@@ -1,0 +1,102 @@
+.content {
+  width: 740px !important;
+}
+
+.content {
+  padding-bottom: 64px !important;
+}
+
+.content-title {
+  padding: 24px 0;
+  font-size: 1.8rem;
+}
+
+.content-main {
+  display: flex;
+}
+
+.content-text {
+  width: 50%;
+}
+
+.content-text p {
+  color: var(--text-body);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 12px 0;
+}
+
+.number-title {
+  padding: 12px 0;
+}
+
+.number-items {
+  padding-left: 32px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.content-form {
+  width: 50%;
+  padding-left: 24px;
+}
+
+.content-form-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.content-form-main div {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  line-height: 28px;
+}
+
+#type {
+  padding: 12px 6px;
+  border: 1px solid var(--input-background-color);
+
+  &:focus {
+    border: 1.5px solid black;
+    outline: none;
+  }
+}
+
+.content-form-main div input {
+  padding: 12px 6px;
+  border: 1px solid var(--input-background-color);
+
+  &:focus {
+    border: 1.5px solid black;
+    outline: none;
+  }
+}
+
+#message {
+  padding: 12px 6px;
+  border: 1px solid var(--input-background-color);
+  height: 200px;
+  &:focus {
+    border: 1.5px solid black;
+    outline: none;
+  }
+}
+
+.agree {
+  display: flex;
+  flex-direction: row !important;
+  font-size: 0.8rem;
+}
+
+.agree input {
+  margin-right: 12px;
+}
+
+.submit {
+  width: 30%;
+}
