@@ -26,7 +26,7 @@ function HomePage() {
   const [show, setShow] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:3000/home")
+    fetch("https://house-clone-api.vercel.app/home")
       .then((res) => res.json())
       .then((items) => {
         setProjects(items);
