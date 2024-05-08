@@ -73,7 +73,7 @@ function SearchPage({ ...props }) {
               data.images.map((image) => {
                 return (
                   <div className={cx("image", "col l-4")}>
-                    <img src={"/" + image}></img>
+                    <img src={image}></img>
                   </div>
                 );
               })
@@ -85,7 +85,7 @@ function SearchPage({ ...props }) {
                   {data.projects.map((project, index) => {
                     return (
                       <div key={index} className={cx("project")}>
-                        <img src={"/" + project.img}></img>
+                        <img src={project.img}></img>
                         <div className={cx("project-title")}>
                           <p>{project.type}</p>
                           <h3>{project.title}</h3>
@@ -101,7 +101,7 @@ function SearchPage({ ...props }) {
                       ? data.offices.map((office, index) => {
                           return (
                             <li key={index} className={cx("offices-item")}>
-                              <img src={"/" + office.images} />
+                              <img src={office.images} />
                               <h4>{office.name}</h4>
                             </li>
                           );
@@ -113,7 +113,7 @@ function SearchPage({ ...props }) {
                   {data.projects.map((project, index) => {
                     return (
                       <div key={index} className={cx("project")}>
-                        <img src={"/" + project.img}></img>
+                        <img src={project.img}></img>
                         <div className={cx("project-title")}>
                           <p>{project.type}</p>
                           <h3>{project.title}</h3>
@@ -131,7 +131,7 @@ function SearchPage({ ...props }) {
                   {data.products.map((product, index) => {
                     return (
                       <div key={index} className={cx("product")}>
-                        <img src={"/" + product.img}></img>
+                        <img src={product.img}></img>
                         <div className={cx("product-title")}>
                           <p>{product.type}</p>
                           <h3>{product.title}</h3>
@@ -147,7 +147,7 @@ function SearchPage({ ...props }) {
                       ? data.offices.map((office) => {
                           return (
                             <li className={cx("offices-item")}>
-                              <img src={"/" + office.images} />
+                              <img src={office.images} />
                               <h4>{office.name}</h4>
                             </li>
                           );
@@ -159,7 +159,7 @@ function SearchPage({ ...props }) {
                   {data.products.map((product, index) => {
                     return (
                       <div key={index} className={cx("product")}>
-                        <img src={"/" + product.img}></img>
+                        <img src={product.img}></img>
                         <div className={cx("product-title")}>
                           <p>{product.type}</p>
                           <h3>{product.title}</h3>
@@ -180,7 +180,7 @@ function SearchPage({ ...props }) {
                           {professional.images.map((image) => {
                             return (
                               <div>
-                                <img src={"/" + image}></img>
+                                <img src={image}></img>
                               </div>
                             );
                           })}
