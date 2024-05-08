@@ -18,9 +18,7 @@ function Contact() {
   const [count, setCount] = useState();
 
   useEffect(() => {
-    fetch(
-      "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/1.jpeg"
-    )
+    fetch("https://house-clone-api.vercel.app/contact")
       .then((res) => res.json())
       .then((data) => {
         setCount(1);
