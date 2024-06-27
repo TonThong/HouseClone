@@ -2,6 +2,69 @@
   display: flex;
 }
 
+.list-user {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.user {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.user-selection {
+  position: absolute;
+  display: none;
+  width: 128px;
+  top: 52px;
+  right: 0px;
+  text-align: center;
+  list-style: none;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 2px gray;
+  background-color: white;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+
+.user-selection::before {
+  content: "";
+  top: -12px;
+  right: 0px;
+  position: absolute;
+  width: 100%;
+  height: 12px;
+  background-color: transparent;
+}
+
+.user-selection:hover {
+  display: block;
+}
+
+.user:hover ~ .user-selection {
+  display: block;
+}
+
+.user-selection li {
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  margin: 8px 0;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.log-out {
+  &:hover {
+    color: inherit !important;
+  }
+}
+
+.user-selection li:hover {
+  background-color: rgb(231, 231, 231);
+}
+
 .log {
   margin: 0 4px;
 }

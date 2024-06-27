@@ -47,8 +47,31 @@ function SignPage() {
               placeholder="Password have 8 or more characters"
             />
           </div>
-          <Link to="/log">
-            <Button className={cx("submit")}>Sign Up</Button>
+          <Link
+            onMouseDown={() => {
+              let filter =
+                /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+              if (
+                !filter.test(document.querySelector(`#${cx("email")}`).value)
+              ) {
+                alert("Invalid email, please try again.");
+                email.focus;
+              }
+            }}
+            to="/log"
+          >
+            <Button
+              className={cx("submit")}
+              onClick={() => {
+                localStorage.setItem(
+                  `${document.querySelector(`#${cx("email")}`).value}`,
+                  `${document.querySelector(`#${cx("password")}`).value}`
+                );
+                alert("Success!");
+              }}
+            >
+              Sign Up
+            </Button>
           </Link>
           <p>
             Already have an account?

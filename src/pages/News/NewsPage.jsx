@@ -81,7 +81,12 @@ function NewsPage({ ...props }) {
                         })}
                       </ul>
                       <div className={cx("save-read")}>
-                        <Button className={cx("save-btn")}>
+                        <Button
+                          className={cx("save-btn")}
+                          onClick={() => {
+                            alert("You saved successfully!");
+                          }}
+                        >
                           <FontAwesomeIcon icon={faFolderOpen} />
                           Save this Project
                         </Button>

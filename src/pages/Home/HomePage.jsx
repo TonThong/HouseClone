@@ -189,7 +189,12 @@ function HomePage() {
                         })}
                       </ul>
                       <div className={cx("save-read")}>
-                        <Button className={cx("save-btn")}>
+                        <Button
+                          className={cx("save-btn")}
+                          onClick={() => {
+                            alert("You saved successfully!");
+                          }}
+                        >
                           <FontAwesomeIcon icon={faFolderOpen} />
                           Save this Project
                         </Button>
@@ -218,7 +223,9 @@ function HomePage() {
                             key={index}
                             className={cx("products-catalog-item", "col l-6")}
                           >
-                            <img src={productCatalog.src}></img>
+                            <a href="#">
+                              <img src={productCatalog.src} />
+                            </a>
                           </li>
                         );
                       })

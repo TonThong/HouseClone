@@ -58,6 +58,7 @@ function Input({
         id={id}
         onBlur={required ? addWarning : null}
         onFocus={required ? removeWarning : null}
+        {...props}
       ></input>
       {requiredElement}
     </div>
