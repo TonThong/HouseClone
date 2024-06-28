@@ -12,7 +12,7 @@ function SignPage() {
   return (
     <div className={cx("wrapper")}>
       <div className={cx("background")}>
-        <img src="src/images/logSign/backGround_1.jpg"></img>
+        <img src="https://house-clone-api.vercel.app/src/images/logSign/backGround_1.jpg"></img>
         <div className={cx("background-primary")}></div>
       </div>
       <div className={cx("content")}>

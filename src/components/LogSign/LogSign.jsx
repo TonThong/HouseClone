@@ -14,7 +14,10 @@ function LogSign({ className, ...props }) {
     <>
       {user ? (
         <div className={cx("list-user", className)}>
-          <img className={cx("user")} src="/src/images/user.jpg"></img>
+          <img
+            className={cx("user")}
+            src="https://house-clone-api.vercel.app/src/images/user.jpg"
+          ></img>
           <ul className={cx("user-selection")}>
             <li>Profile</li>
             <li>Setting</li>
