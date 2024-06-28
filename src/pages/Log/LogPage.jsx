@@ -16,7 +16,13 @@ function LogPage() {
         <div className={cx("background-primary")}></div>
       </div>
       <div className={cx("content")}>
-        <form className={cx("content-form")}>
+        <form
+          className={cx("content-form")}
+          onSubmit={(event) => {
+            event.preventDefault();
+          }}
+          action=""
+        >
           <Logo disable className={cx("logo")} large>
             T
           </Logo>
@@ -57,7 +63,7 @@ function LogPage() {
             }}
             to={`/`}
           >
-            <input type="submit" id={cx("submit")} />
+            <input type="submit" id={cx("submit")}></input>
             <Button className={cx("submit")}>Log In</Button>
           </Link>
           <p>
