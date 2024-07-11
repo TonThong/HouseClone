@@ -30,9 +30,6 @@ function ProjectPage() {
       });
   }, [path]);
 
-  console.log(data);
-  // console.log(path);
-
   return (
     <>
       <Header />

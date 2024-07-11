@@ -16,23 +16,18 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 60%;
+  width: 50%;
   height: 100%;
   background-color: var(--primary);
-}
-
-.background-white {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40%;
-  height: 100%;
-  background-color: transparent;
 }
 
 .content-main {
   display: flex !important ;
   position: relative;
+
+  & .background-primary {
+    width: 60%;
+  }
 }
 
 .introduce {
@@ -41,6 +36,7 @@
   color: white;
   padding: 128px 0;
   padding-right: 40px;
+  z-index: 2;
 }
 
 .introduce-title {

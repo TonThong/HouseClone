@@ -105,7 +105,28 @@
 }
 
 .image {
+  position: relative;
   padding: 12px;
+  cursor: pointer;
+
+  & .save-btn {
+    display: none;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    font-size: 1.2rem;
+    color: var(--text-hint);
+    padding: 0;
+    cursor: pointer;
+    z-index: 1;
+    & button {
+      padding: 12px 24px;
+    }
+  }
+
+  &:hover .save-btn {
+    display: block;
+  }
 
   & img {
     width: 100%;
@@ -146,10 +167,12 @@
     color: var(--text-hint);
     font-size: 1.2rem;
     font-weight: 400;
+    cursor: pointer;
   }
   & h3 {
     font-weight: 600;
     font-size: 1.4rem;
+    cursor: pointer;
   }
 }
 
@@ -260,6 +283,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+      cursor: pointer;
     }
   }
 }
@@ -276,9 +300,11 @@
   & h3 {
     color: var(--text-hint);
     font-weight: 400;
+    cursor: pointer;
   }
   & h4 {
     font-size: 1.6rem;
+    cursor: pointer;
   }
 }
 

@@ -33,7 +33,6 @@ function Contact() {
   let selectTypes = type ? type.selection : null;
 
   function handleValue(e) {
-    console.log(e.target.value);
     setWebValue(e.target.value);
   }
 
@@ -63,7 +62,14 @@ function Contact() {
             </ul>
           </div>
           <div className={cx("content-form")}>
-            <form className={cx("content-form-main")}>
+            <form
+              className={cx("content-form-main")}
+              onSubmit={(event) => {
+                alert("Updating ...");
+                event.preventDefault();
+              }}
+              action=""
+            >
               <div className={cx("type")}>
                 <label htmlFor={cx("type")}>Do you want to</label>
                 <select id={cx("type")}>

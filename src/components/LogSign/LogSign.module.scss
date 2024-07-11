@@ -55,6 +55,12 @@
   cursor: pointer;
 }
 
+.profile {
+  &:hover {
+    color: inherit !important;
+  }
+}
+
 .log-out {
   &:hover {
     color: inherit !important;

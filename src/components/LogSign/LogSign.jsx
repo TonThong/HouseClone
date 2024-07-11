@@ -9,6 +9,7 @@ const cx = classNames.bind(styles);
 
 function LogSign({ className, ...props }) {
   let user = localStorage.getItem("isUser") == "true";
+  let gmail = localStorage.getItem("gmail");
 
   return (
     <>
@@ -19,8 +20,21 @@ function LogSign({ className, ...props }) {
             src="https://house-clone-api.vercel.app/src/images/user.jpg"
           ></img>
           <ul className={cx("user-selection")}>
-            <li>Profile</li>
-            <li>Setting</li>
+            <li>
+              <Link
+                to={`/profile/${localStorage.getItem(`name-${gmail}`)}`}
+                className={cx("profile")}
+              >
+                Profile
+              </Link>
+            </li>
+            <li
+              onClick={() => {
+                alert("Updating setting...");
+              }}
+            >
+              Setting
+            </li>
             <li>
               <Link
                 to="/log"

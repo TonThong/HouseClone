@@ -10,6 +10,7 @@ import NewsPage from "~/pages/News/NewsPage";
 import ProjectPage from "~/pages/Project/ProjectPage";
 
 import "./App.css";
+import ProfilePage from "./pages/Profile/ProfilePage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/sign" element={<SignPage />} />
         <Route path="/news" element={<NewsPage />} />
         <Route path="/:id" element={<ProjectPage />} />
+        <Route path="/profile/:name" element={<ProfilePage />} />
       </Routes>
     </>
   );

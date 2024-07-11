@@ -1,0 +1,141 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-auto-columns: 1 !important;
+  column-gap: 40px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.profile-info {
+  position: relative;
+  flex-direction: column;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  & .profile-info-content {
+    position: absolute;
+  }
+
+  & img {
+    border: 4px solid rgba(128, 128, 128, 0.3);
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+.profile-name {
+  padding: 8px 0;
+  font-size: 1.2rem;
+}
+
+.profile-email {
+  font-weight: normal;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+.folder {
+  padding: 8px 0;
+  font-weight: normal;
+  font-size: 0.9rem;
+  & h3 {
+    font-weight: 400;
+  }
+
+  & div {
+    font-weight: 600;
+    padding: 16px 0;
+    padding-left: 8px;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--primary-hover);
+    }
+  }
+
+  & ul {
+    list-style: none;
+    padding-left: 32px;
+    cursor: pointer;
+
+    & li {
+      padding: 0 0 8px 0;
+
+      &:hover {
+        color: var(--primary-hover);
+      }
+    }
+  }
+}
+
+.list-folder {
+  position: relative;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  padding-top: 40px;
+}
+
+.list-folder-content {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+
+  & .add-folder {
+    margin: 24px 8px;
+    background-color: rgba(128, 128, 128, 0.1);
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    text-justify: center;
+    align-items: center;
+    line-height: 122px;
+    color: var(--text-hint);
+    border: 2px dashed #ccc;
+    font-size: 6rem;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover {
+      color: rgba(128, 128, 128, 0.6);
+    }
+  }
+
+  & .items-folder {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 24px 8px;
+    position: relative;
+
+    width: 230px;
+    height: 130px;
+    cursor: pointer;
+
+    & .folder-images {
+      position: relative;
+      margin: 1px;
+      background-color: #cccccc80;
+
+      & img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    & .folder-title {
+      position: absolute;
+      font-size: 1.2rem;
+      bottom: -24px;
+    }
+  }
+}

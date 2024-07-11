@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolderOpen } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 
 import Button from "~/components/Button/Button";
 import Header from "~/pages/components/Header/Header";
@@ -90,9 +91,11 @@ function NewsPage({ ...props }) {
                           <FontAwesomeIcon icon={faFolderOpen} />
                           Save this Project
                         </Button>
-                        <Button text className={cx("read-btn")}>
-                          Read More
-                        </Button>
+                        <Link to="/123456">
+                          <Button text className={cx("read-btn")}>
+                            Read More
+                          </Button>
+                        </Link>
                       </div>
                     </div>
                   );
@@ -113,7 +116,9 @@ function NewsPage({ ...props }) {
                             key={index}
                             className={cx("products-catalog-item", "col l-6")}
                           >
-                            <img src={productCatalog.src}></img>
+                            <a href="#">
+                              <img src={productCatalog.src}></img>
+                            </a>
                           </li>
                         );
                       })

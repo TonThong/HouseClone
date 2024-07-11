@@ -1,8 +1,9 @@
 import Header from "~/pages/components/Header/Header";
 import Footer from "~/pages/components/Footer/Footer";
+import Button from "~/components/Button/Button";
 
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import classNames from "classnames/bind";
 import styles from "./SearchPage.module.scss";
 
@@ -70,6 +71,14 @@ function SearchPage({ ...props }) {
               data.images.map((image) => {
                 return (
                   <div className={cx("image", "col l-4")}>
+                    <Button
+                      className={cx("save-btn")}
+                      onClick={() => {
+                        alert("Image saved successfully!");
+                      }}
+                    >
+                      Save
+                    </Button>
                     <img src={image}></img>
                   </div>
                 );
@@ -84,8 +93,12 @@ function SearchPage({ ...props }) {
                       <div key={index} className={cx("project")}>
                         <img src={project.img}></img>
                         <div className={cx("project-title")}>
-                          <p>{project.type}</p>
-                          <h3>{project.title}</h3>
+                          <Link to="/123456">
+                            <p>{project.type}</p>
+                          </Link>
+                          <Link to="/123456">
+                            <h3>{project.title}</h3>
+                          </Link>
                         </div>
                       </div>
                     );
@@ -112,8 +125,12 @@ function SearchPage({ ...props }) {
                       <div key={index} className={cx("project")}>
                         <img src={project.img}></img>
                         <div className={cx("project-title")}>
-                          <p>{project.type}</p>
-                          <h3>{project.title}</h3>
+                          <Link to="/123456">
+                            <p>{project.type}</p>
+                          </Link>
+                          <Link to="/123456">
+                            <h3>{project.title}</h3>
+                          </Link>
                         </div>
                       </div>
                     );
@@ -130,8 +147,20 @@ function SearchPage({ ...props }) {
                       <div key={index} className={cx("product")}>
                         <img src={product.img}></img>
                         <div className={cx("product-title")}>
-                          <p>{product.type}</p>
-                          <h3>{product.title}</h3>
+                          <Link
+                            onClick={() => {
+                              alert("Updating product...");
+                            }}
+                          >
+                            <p>{product.type}</p>
+                          </Link>
+                          <Link
+                            onClick={() => {
+                              alert("Updating product...");
+                            }}
+                          >
+                            <h3>{product.title}</h3>
+                          </Link>
                         </div>
                       </div>
                     );
@@ -176,7 +205,11 @@ function SearchPage({ ...props }) {
                         <div className={cx("professional-img")}>
                           {professional.images.map((image) => {
                             return (
-                              <div>
+                              <div
+                                onClick={() => {
+                                  alert("Updating this expert...");
+                                }}
+                              >
                                 <img src={image}></img>
                               </div>
                             );
@@ -184,8 +217,20 @@ function SearchPage({ ...props }) {
                         </div>
                         <div className={cx("professional-description")}>
                           <div className={cx("professional-name")}>
-                            <h3>{professional.name}</h3>
-                            <h4>{professional.type}</h4>
+                            <h3
+                              onClick={() => {
+                                alert("Updating this expert...");
+                              }}
+                            >
+                              {professional.name}
+                            </h3>
+                            <h4
+                              onClick={() => {
+                                alert("Updating this expert...");
+                              }}
+                            >
+                              {professional.type}
+                            </h4>
                           </div>
                           <div className={cx("professional-category")}>
                             <h3>

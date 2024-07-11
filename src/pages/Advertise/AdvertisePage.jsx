@@ -36,9 +36,9 @@ function Advertise() {
       <div className={cx("content")}>
         <div className={cx("background")}>
           <div className={cx("background-primary")}></div>
-          <div className={cx("background-white")}></div>
         </div>
         <div className={cx("content-main", "grid wide")}>
+          <div className={cx("background-primary")}></div>
           <div className={cx("introduce")}>
             <h3 className={cx("introduce-title")}>T Marketing Solutions</h3>
             <h4 className={cx("introduce-title-extra")}>
@@ -65,7 +65,14 @@ function Advertise() {
           </div>
 
           <div className={cx("form")}>
-            <form className={cx("form-content")}>
+            <form
+              className={cx("form-content")}
+              onSubmit={(event) => {
+                alert("Updating ...");
+                event.preventDefault();
+              }}
+              action=""
+            >
               <h3 className={cx("form-title")}>Get in touch</h3>
               <Input
                 required="The Name field is required"

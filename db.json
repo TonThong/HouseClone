@@ -16,7 +16,7 @@
       "id": 3,
       "type": "Featured",
       "src": "src/images/homeIntro/3.jpg",
-      "name": "The Promise of Accessibility: Can Modular Systems Contribute to Democratizing the Design Process?"
+      "name": "Can Modular Systems Contribute to the Process?"
     },
     {
       "id": 4,
@@ -409,47 +409,47 @@
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           },
           {
             "img": "src/images/Products/1.webp",
             "type": "EQUITONE",
-            "title": "Fiber Cement Facade Panel - Tectiva"
+            "title": "Fiber Cement - Tectiva"
           }
         ]
       }
@@ -595,8 +595,19 @@
     },
     {
       "id": "123457",
-      "introduce": "none",
-      "images": "null"
+      "title": "PATTERN LAND / Cadence Architectsnone",
+      "images": [
+        "src/images/homeIntro/1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg",
+        "src/images/homeIntro/Projects/picture-1.jpg"
+      ]
     },
     { "id": "123458", "introduce": "none", "images": "null" }
   ]

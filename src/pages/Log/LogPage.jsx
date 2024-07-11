@@ -2,7 +2,7 @@ import Logo from "~/components/Logo/Logo";
 import Button from "~/components/Button/Button";
 import Input from "~/components/Input/Input";
 
-import { Link, Route, Router, RouterProvider, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import classNames from "classnames/bind";
 import styles from "./LogPage.module.scss";
 
@@ -58,6 +58,10 @@ function LogPage() {
                 alert(`Invalid email or password`);
                 Event.preventDefault();
               } else {
+                localStorage.setItem(
+                  "gmail",
+                  document.querySelector(`#${cx("email")}`).value
+                );
                 localStorage.setItem("isUser", true);
               }
             }}

@@ -64,8 +64,16 @@ function SignPage() {
               className={cx("submit")}
               onClick={() => {
                 localStorage.setItem(
+                  `gmail`,
+                  `${document.querySelector(`#${cx("email")}`).value}`
+                );
+                localStorage.setItem(
                   `${document.querySelector(`#${cx("email")}`).value}`,
                   `${document.querySelector(`#${cx("password")}`).value}`
+                );
+                localStorage.setItem(
+                  `name-${document.querySelector(`#${cx("email")}`).value}`,
+                  `${document.querySelector(`#${cx("name")}`).value}`
                 );
                 alert("Success!");
               }}
