@@ -68,6 +68,8 @@ function HomePage() {
     }
   };
 
+  localStorage.setItem("project-save", null);
+
   const updateFolderData = (newListTitleFolder, newListFolder) => {};
 
   return (
@@ -200,7 +202,7 @@ function HomePage() {
                     onClick={() => {
                       overlayRef.current.style.visibility = "visible";
                       wrapperRef.current.style.visibility = "visible";
-                      localStorage.setItem("project-save", "123456");
+                      localStorage.setItem("project-save", `${product.id}`);
                     }}
                   >
                     <FontAwesomeIcon icon={faFolderOpen} />

@@ -62,7 +62,16 @@ function SignPage() {
           >
             <Button
               className={cx("submit")}
-              onClick={() => {
+              onClick={(e) => {
+                if (
+                  localStorage.getItem(
+                    `${document.querySelector(`#${cx("email")}`).value}`
+                  )
+                ) {
+                  alert("This email is already!");
+                  e.preventDefault();
+                  return;
+                }
                 localStorage.setItem(
                   `gmail`,
                   `${document.querySelector(`#${cx("email")}`).value}`

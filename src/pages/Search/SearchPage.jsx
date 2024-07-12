@@ -14,7 +14,11 @@ function SearchPage({ ...props }) {
   const [data, setData] = useState();
   const [path, setPath] = useState(location.pathname);
 
+  const [images, setImages] = useState({});
+  const [title, setTitle] = useState({});
+
   const pathApi = "https://house-clone-api.vercel.app" + path;
+  // const pathApi = "http://localhost:3000" + path;
 
   if (path != location.pathname) {
     setPath(location.pathname);
@@ -25,8 +29,41 @@ function SearchPage({ ...props }) {
       .then((res) => res.json())
       .then((res) => {
         setData(res.data);
+        console.log(data);
       });
   }, [path]);
+
+  useEffect(() => {
+    const fetchImages = async () => {
+      try {
+        const uniqueProjectIds = [...new Set(data.projects.flat())];
+        const responses = await Promise.all(
+          uniqueProjectIds.map((id) =>
+            fetch(`https://house-clone-api.vercel.app/projects/${id}`)
+          )
+        );
+        const dataArr = await Promise.all(responses.map((res) => res.json()));
+
+        const imagesData = dataArr.reduce((acc, data, index) => {
+          acc[uniqueProjectIds[index]] = data.images[0];
+          return acc;
+        }, {});
+
+        const titlesData = dataArr.reduce((acc, data, index) => {
+          acc[uniqueProjectIds[index]] = data.title;
+          return acc;
+        }, {});
+
+        setImages(imagesData);
+        setTitle(titlesData);
+      } catch (error) {
+        // console.error("Error fetching data:", error);
+      }
+    };
+    fetchImages();
+  }, [data]);
+  console.log(title);
+  console.log(images);
 
   return (
     <>
@@ -88,16 +125,16 @@ function SearchPage({ ...props }) {
             data?.projects ? (
               <div className={cx("content-main")}>
                 <div className={cx("projects")}>
-                  {data.projects.map((project, index) => {
+                  {data.projects.map((projectID, index) => {
                     return (
                       <div key={index} className={cx("project")}>
-                        <img src={project.img}></img>
+                        <img src={images[projectID]}></img>
                         <div className={cx("project-title")}>
-                          <Link to="/123456">
-                            <p>{project.type}</p>
+                          <Link to={`/${projectID}`}>
+                            <p>{"Project News"}</p>
                           </Link>
-                          <Link to="/123456">
-                            <h3>{project.title}</h3>
+                          <Link to={`/${projectID}`}>
+                            <h3>{title[projectID]}</h3>
                           </Link>
                         </div>
                       </div>
@@ -110,7 +147,13 @@ function SearchPage({ ...props }) {
                     {data
                       ? data.offices.map((office, index) => {
                           return (
-                            <li key={index} className={cx("offices-item")}>
+                            <li
+                              key={index}
+                              className={cx("offices-item")}
+                              onClick={() => {
+                                alert("Updating the offices...");
+                              }}
+                            >
                               <img src={office.images} />
                               <h4>{office.name}</h4>
                             </li>
@@ -120,16 +163,16 @@ function SearchPage({ ...props }) {
                   </ul>
                 </div>
                 <div className={cx("projects")}>
-                  {data.projects.map((project, index) => {
+                  {data.projects.map((projectID, index) => {
                     return (
                       <div key={index} className={cx("project")}>
-                        <img src={project.img}></img>
+                        <img src={images[projectID]}></img>
                         <div className={cx("project-title")}>
-                          <Link to="/123456">
-                            <p>{project.type}</p>
+                          <Link to={`/${projectID}`}>
+                            <p>{"Project News"}</p>
                           </Link>
-                          <Link to="/123456">
-                            <h3>{project.title}</h3>
+                          <Link to={`/${projectID}`}>
+                            <h3>{title[projectID]}</h3>
                           </Link>
                         </div>
                       </div>

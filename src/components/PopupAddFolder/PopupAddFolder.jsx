@@ -44,7 +44,7 @@ function PopUpAddFolder({ className, references, updateFolderData, ...props }) {
           let overlay = document.querySelector(`.${cx("overlay")}`);
           wrapper.style.visibility = "hidden";
           overlay.style.visibility = "hidden";
-          localStorage.setItem("project-save");
+          localStorage.setItem("project-save", null);
         }}
       ></div>
       <div className={cx("wrapper")} ref={references.wrapperRef}>
@@ -65,7 +65,6 @@ function PopUpAddFolder({ className, references, updateFolderData, ...props }) {
                       let projectId = JSON.parse(
                         localStorage.getItem("project-save")
                       );
-                      console.log(projectId);
                       if (listItemFolder[index] && projectId) {
                         listItemFolder[index].push(`${projectId}`);
                         localStorage.setItem(
@@ -74,6 +73,8 @@ function PopUpAddFolder({ className, references, updateFolderData, ...props }) {
                         );
                         updateFolderData(listTitleFolder, listItemFolder);
                         alert("You saved successfully!");
+                      } else {
+                        alert("You can't save none project!");
                       }
                     }}
                   >

@@ -185,6 +185,7 @@
   width: 100%;
   list-style: none;
   overflow-x: auto;
+
   &::-webkit-scrollbar {
     border-radius: 10px;
     height: 8px;
@@ -205,7 +206,8 @@
 }
 
 .offices-item {
-  padding: 12px 64px;
+  margin: 12px 64px;
+  cursor: pointer;
 
   & img {
     width: 100px;

@@ -88,6 +88,7 @@
   display: flex;
   position: absolute;
   flex-wrap: wrap;
+  width: 100%;
 
   & .add-folder {
     margin: 24px 8px;
@@ -106,6 +107,55 @@
 
     &:hover {
       color: rgba(128, 128, 128, 0.6);
+    }
+  }
+
+  & .folder-content-title {
+    font-size: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & div {
+      position: relative;
+      & button {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        padding: 8px;
+        width: 40px;
+        height: 40px;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  & .folder-image {
+    position: relative;
+    width: 230px;
+    height: 150px;
+    margin: 16px;
+    margin-left: 0;
+    margin-bottom: 32px;
+
+    & .delete-btn {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      visibility: hidden;
+      z-index: 10;
+    }
+    &:hover {
+      & .delete-btn {
+        visibility: visible;
+      }
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   }
 

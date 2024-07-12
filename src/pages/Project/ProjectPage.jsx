@@ -1,7 +1,10 @@
 import Header from "~/pages/components/Header/Header";
 import Footer from "~/pages/components/Footer/Footer";
+import PopupAddFolder from "~/components/PopupAddFolder/PopupAddFolder";
 
-import { useEffect, useState } from "react";
+import Button from "~/components/Button/Button";
+
+import { useEffect, useState, useRef } from "react";
 import { useLocation } from "react-router-dom";
 
 import classNames from "classnames/bind";
@@ -14,6 +17,10 @@ function ProjectPage() {
   const [data, setData] = useState();
   const [productsCatalog, setProductsCatalog] = useState([]);
   const [path, setPath] = useState("");
+
+  const overlayRef = useRef(null);
+  const wrapperRef = useRef(null);
+  const listFolderRef = useRef(null);
 
   const pathApi = "https://house-clone-api.vercel.app/projects" + path;
 
@@ -30,11 +37,28 @@ function ProjectPage() {
       });
   }, [path]);
 
+  let id = path.replace("/", "");
+
   return (
     <>
       <Header />
+      <PopupAddFolder
+        className={cx("popup-add-folder")}
+        references={{ overlayRef, wrapperRef, listFolderRef }}
+        updateFolderData={() => {}}
+      />
       <div className={cx("wrapper", "grid wide content")}>
         <div className={cx("content")}>
+          <Button
+            className={cx("save-btn")}
+            onClick={() => {
+              overlayRef.current.style.visibility = "visible";
+              wrapperRef.current.style.visibility = "visible";
+              localStorage.setItem("project-save", `${id}`);
+            }}
+          >
+            Save this project
+          </Button>
           <h3 className={cx("title")}>{data ? data.title : null}</h3>
           <ul className={cx("picture-items")}>
             {data
