@@ -208,7 +208,7 @@ function HomePage() {
                     <FontAwesomeIcon icon={faFolderOpen} />
                     Save this Project
                   </Button>
-                  <Link to="123456">
+                  <Link to={`${product.id}`}>
                     <Button text className={cx("read-btn")}>
                       Read More
                     </Button>
