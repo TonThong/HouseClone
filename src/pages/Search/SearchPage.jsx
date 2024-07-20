@@ -17,10 +17,10 @@ function SearchPage({ ...props }) {
   const [images, setImages] = useState({});
   const [title, setTitle] = useState({});
 
-  // const pathApi = "https://house-clone-api.vercel.app" + path;
-  // const pathMain = "https://house-clone-api.vercel.app";
-  const pathApi = "http://localhost:3000" + path;
-  const pathMain = "http://localhost:3000";
+  const pathApi = "https://house-clone-api.vercel.app" + path;
+  const pathMain = "https://house-clone-api.vercel.app";
+  // const pathApi = "http://localhost:3000" + path;
+  // const pathMain = "http://localhost:3000";
 
   if (path != location.pathname) {
     setPath(location.pathname);

@@ -18,7 +18,8 @@ import styles from "./HomePage.module.scss";
 const cx = classNames.bind(styles);
 
 function HomePage() {
-  let pathApi = "http://localhost:3000";
+  // let pathApi = "http://localhost:3000";
+  let pathApi = "https://house-clone-api.vercel.app";
 
   const [gmail] = useState(localStorage.getItem("gmail") || "");
 
