@@ -23,21 +23,28 @@ function ProjectPage() {
   const listFolderRef = useRef(null);
 
   const pathApi = "https://house-clone-api.vercel.app/projects" + path;
+  const pathMain = "https://house-clone-api.vercel.app";
 
   if (path != location.pathname) {
     setPath(location.pathname);
   }
 
   useEffect(() => {
-    fetch(pathApi)
-      .then((res) => res.json())
-      .then((res) => {
-        setProductsCatalog(res.productsCatalog);
-        setData(res);
-      });
+    let fetchData = async () => {
+      let products = await fetch(`${pathMain}/products`).then((res) =>
+        res.json()
+      );
+
+      let res = await fetch(pathApi).then((res) => res.json());
+
+      setData(res);
+      setProductsCatalog(products);
+    };
+    fetchData();
   }, [path]);
 
   let id = path.replace("/", "");
+  console.log(productsCatalog);
 
   return (
     <>
@@ -145,7 +152,7 @@ function ProjectPage() {
                           key={index}
                           className={cx("products-catalog-item", "col l-6")}
                         >
-                          <img src={productCatalog.src}></img>
+                          <img src={productCatalog.image}></img>
                         </li>
                       );
                     })
