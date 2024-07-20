@@ -1,120 +1,4 @@
 {
-  "home": [
-    {
-      "id": 1,
-      "type": "Featured",
-      "src": "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-      "name": "Upper Watt Residence / Seear-Budd Ross"
-    },
-    {
-      "id": 2,
-      "type": "Featured",
-      "src": "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-      "name": "A Home Around The Forest / YSLA Architects"
-    },
-    {
-      "id": 3,
-      "type": "Featured",
-      "src": "https://house-clone-api.vercel.app/src/images/homeIntro/3.jpg",
-      "name": "Can Modular Systems Contribute to the Process?"
-    },
-    {
-      "id": 4,
-      "type": "Editor's Choice",
-      "src": "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-      "name": "Rau Haus / Feldman Architecture"
-    },
-    {
-      "productsCatalog": [
-        {
-          "id": 1,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/1.jpeg"
-        },
-        {
-          "id": 2,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/2.jpeg"
-        },
-        {
-          "id": 3,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/3.jpg"
-        },
-        {
-          "id": 4,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/4.jpg"
-        }
-      ]
-    },
-    {
-      "projects": [
-        {
-          "id": "123456",
-          "title": "Cadence Architectsnone",
-          "time": "33 minutes ago",
-          "mainPicture": "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "pictures": [
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg"
-          ],
-          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
-        },
-        {
-          "id": "123457",
-          "title": "PATTERN LAND / Cadence",
-          "time": "33 minutes ago",
-          "mainPicture": "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-          "pictures": [
-            "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg"
-          ],
-          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
-        },
-        {
-          "id": "123458",
-          "title": "HOUSE LAND / NEWCASTLE",
-          "time": "33 minutes ago",
-          "mainPicture": "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-          "pictures": [
-            "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg"
-          ],
-          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
-        },
-        {
-          "id": "123456",
-          "title": "Cadence Architectsnone",
-          "time": "33 minutes ago",
-          "mainPicture": "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "pictures": [
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-            "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg"
-          ],
-          "description": "The world has its eyes on the Amazon. Geographical data about this vast territory, spanning 6.74 million square kilometers across eight countries in Latin America, is constantly featured in national and international media. Headlines often highlight its sheer magnitude as the largest tropical rainforest in the world, home to 10% of the planet's biodiversity, and responsible for 15% of the Earth's freshwater. However, little attention is paid to what transpires beneath its canopy, on the ground where people live."
-        }
-      ]
-    }
-  ],
   "contact": [
     {
       "id": 1,
@@ -192,39 +76,39 @@
           "Color"
         ],
         "projects": [
-          123456, 123457, 123458, 123456, 123457, 123458, 123456, 123457, 123458
+          123456, 123457, 123458, 123459, 123460, 123461, 123462, 123463, 123464
         ],
         "offices": [
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           }
         ]
@@ -249,69 +133,69 @@
           "Architects"
         ],
         "images": [
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-          "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg"
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg",
+          "/src/images/homeIntro/Projects/picture-1.jpg"
         ]
       }
     },
@@ -333,81 +217,81 @@
         ],
         "offices": [
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           },
           {
-            "images": "https://house-clone-api.vercel.app/src/images/Office/Office-1.jpg",
+            "images": "/src/images/Office/Office-1.jpg",
             "name": "OMA"
           }
         ],
         "products": [
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           },
           {
-            "img": "https://house-clone-api.vercel.app/src/images/Products/1.webp",
+            "img": "/src/images/Products/1.jpg",
             "type": "EQUITONE",
             "title": "Fiber Cement - Tectiva"
           }
@@ -429,9 +313,9 @@
         "professionals": [
           {
             "images": [
-              "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp"
+              "/src/images/homeIntro/Projects/picture-1.jpg",
+              "/src/images/Products/1.jpg",
+              "/src/images/Products/1.jpg"
             ],
             "name": "Kengo Kuma and Associates",
             "type": "Architecture Office",
@@ -441,9 +325,9 @@
           },
           {
             "images": [
-              "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp"
+              "/src/images/homeIntro/Projects/picture-1.jpg",
+              "/src/images/Products/1.jpg",
+              "/src/images/Products/1.jpg"
             ],
             "name": "Kengo Kuma and Associates",
             "type": "Architecture Office",
@@ -453,9 +337,9 @@
           },
           {
             "images": [
-              "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp"
+              "/src/images/homeIntro/Projects/picture-1.jpg",
+              "/src/images/Products/1.jpg",
+              "/src/images/Products/1.jpg"
             ],
             "name": "Kengo Kuma and Associates",
             "type": "Architecture Office",
@@ -465,9 +349,9 @@
           },
           {
             "images": [
-              "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp"
+              "/src/images/homeIntro/Projects/picture-1.jpg",
+              "/src/images/Products/1.jpg",
+              "/src/images/Products/1.jpg"
             ],
             "name": "Kengo Kuma and Associates",
             "type": "Architecture Office",
@@ -477,9 +361,9 @@
           },
           {
             "images": [
-              "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp"
+              "/src/images/homeIntro/Projects/picture-1.jpg",
+              "/src/images/Products/1.jpg",
+              "/src/images/Products/1.jpg"
             ],
             "name": "Kengo Kuma and Associates",
             "type": "Architecture Office",
@@ -489,9 +373,9 @@
           },
           {
             "images": [
-              "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp",
-              "https://house-clone-api.vercel.app/src/images/Products/1.webp"
+              "/src/images/homeIntro/Projects/picture-1.jpg",
+              "/src/images/Products/1.jpg",
+              "/src/images/Products/1.jpg"
             ],
             "name": "Kengo Kuma and Associates",
             "type": "Architecture Office",
@@ -508,17 +392,18 @@
       "id": "123456",
       "title": "Cadence Architectsnone",
       "images": [
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/Projects/picture-1.jpg"
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg",
+        "/src/images/homeIntro/Projects/picture-1.jpg"
       ],
+      "type": "Feature",
       "specs": {
         "architect": "Cadence Architects",
         "area": "697 m²",
@@ -533,41 +418,22 @@
         "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
         "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
       ],
-
-      "productsCatalog": [
-        {
-          "id": 1,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/1.jpeg"
-        },
-        {
-          "id": 2,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/2.jpeg"
-        },
-        {
-          "id": 3,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/3.jpg"
-        },
-        {
-          "id": 4,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/4.jpg"
-        }
-      ]
+      "time": "40 Minutes ago"
     },
     {
       "id": "123457",
       "title": "PATTERN LAND / Cadence",
       "images": [
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/1.jpg"
+        "/src/images/homeIntro/1.jpg",
+        "/src/images/homeIntro/1.jpg",
+        "/src/images/homeIntro/1.jpg",
+        "/src/images/homeIntro/1.jpg",
+        "/src/images/homeIntro/1.jpg",
+        "/src/images/homeIntro/1.jpg",
+        "/src/images/homeIntro/1.jpg",
+        "/src/images/homeIntro/1.jpg"
       ],
+      "type": "Feature",
       "specs": {
         "architect": "Cadence Architects",
         "area": "697 m²",
@@ -582,41 +448,27 @@
         "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
         "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
       ],
-
-      "productsCatalog": [
-        {
-          "id": 1,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/1.jpeg"
-        },
-        {
-          "id": 2,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/2.jpeg"
-        },
-        {
-          "id": 3,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/3.jpg"
-        },
-        {
-          "id": 4,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/4.jpg"
-        }
-      ]
+      "time": "40 Minutes ago"
     },
     {
       "id": "123458",
       "title": "HOUSE LAND / NEWCASTLE",
       "images": [
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg",
-        "https://house-clone-api.vercel.app/src/images/homeIntro/2.jpg"
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg",
+        "/src/images/homeIntro/2.jpg"
       ],
+      "type": "Feature",
       "specs": {
         "architect": "Cadence Architects",
         "area": "697 m²",
@@ -631,25 +483,292 @@
         "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
         "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
       ],
-
-      "productsCatalog": [
-        {
-          "id": 1,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/1.jpeg"
-        },
-        {
-          "id": 2,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/2.jpeg"
-        },
-        {
-          "id": 3,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/3.jpg"
-        },
-        {
-          "id": 4,
-          "src": "https://house-clone-api.vercel.app/src/images/homeIntro/ProductsCatalog/4.jpg"
-        }
-      ]
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123458",
+      "title": "NEW Restaurants",
+      "images": [
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg",
+        "/src/images/homeIntro/3.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123459",
+      "title": "Beauty Palace",
+      "images": [
+        "/src/images/homeIntro/4.jpg",
+        "/src/images/homeIntro/4.jpg",
+        "/src/images/homeIntro/4.jpg",
+        "/src/images/homeIntro/4.jpg",
+        "/src/images/homeIntro/4.jpg",
+        "/src/images/homeIntro/4.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123460",
+      "title": "Old temples",
+      "images": [
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg",
+        "/src/images/homeIntro/5.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123461",
+      "title": "Which House better",
+      "images": [
+        "/src/images/homeIntro/6.jpg",
+        "/src/images/homeIntro/6.jpg",
+        "/src/images/homeIntro/6.jpg",
+        "/src/images/homeIntro/6.jpg",
+        "/src/images/homeIntro/6.jpg",
+        "/src/images/homeIntro/6.jpg",
+        "/src/images/homeIntro/6.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123462",
+      "title": "Professor for your organisation ",
+      "images": [
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg",
+        "/src/images/homeIntro/7.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123463",
+      "title": "The Volume House / VLOT architecten",
+      "images": [
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg",
+        "/src/images/homeIntro/8.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123464",
+      "title": "Trekroner Church / Rørbæk og Møller Arkitekter",
+      "images": [
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg",
+        "/src/images/homeIntro/9.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    },
+    {
+      "id": "123465",
+      "title": "Sabino 10 House / Editorial",
+      "images": [
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg",
+        "/src/images/homeIntro/10.jpg"
+      ],
+      "type": "Feature",
+      "specs": {
+        "architect": "Cadence Architects",
+        "area": "697 m²",
+        "Year": "2023",
+        "Photographs": "Shamanth Patil",
+        "leadArchitects": "Smaran Mallesh, Narendra Pirgal, Vikram Rajasekaran",
+        "Manufacturers": "AWS Glazed Doors and Windows, Dulux, Escea Fireplaces, Gyprock, PGH Bricks"
+      },
+      "paragraph": [
+        "Text description provided by the architects. Bangalay Residences, nestled in the coastal suburb of Queenscliff, NSW, finds its place within a challenging environment—a narrow infill site bordered by towering four-story brick apartments, with additional units tucked at the rear. The site's constraints, alongside the commanding presence of a mature bangalay tree and the scale of neighboring buildings, demanded a design that not only maximized space but also seamlessly blended with its urban surroundings. Balancing internal planning needs with external urban conditions necessitated a careful interplay between volumetric spaces and the surrounding envelope.",
+        "To address these challenges, innovative strategies were deployed to ensure both internal functionality and external aesthetics were met. The building's facade, meticulously crafted, serves as a testament to this approach. Internally splayed windows, thoughtfully integrated, offer tantalizing glimpses of the surrounding vistas, while meticulously arranged windows maintain visual coherence between the neighboring buildings. Moreover, specially designed sliding screens embellish both the street-facing and rear facades, enhancing the aesthetic appeal of the architectural composition.",
+        "Inspired by the breathtaking coastal setting, the architectural language of Bangalay Residences draws upon the dynamic forms and elements of the ocean. Angular motifs echo the fluidity and energy of breaking waves, while layered sliding screens emulate the rhythmic motion of waves rolling onto shore. The choice of materials—concrete, stone, and sand-colored bricks—pays homage to the enduring strength and rugged beauty of coastal rock formations. Gold metal accents add warmth and radiance, evoking the sun's glow. Furthermore, the incorporation of sand-colored bricks honors the nearby beach and surrounding brick architecture, seamlessly integrating the residence with its natural and built environment.",
+        "In essence, Bangalay Residences serves as a testament to innovative design solutions that seamlessly merge with its coastal surroundings. By harmonizing with the landscape and embracing its coastal inspiration, it creates a unique and harmonious living environment that celebrates the beauty of its coastal context."
+      ],
+      "time": "40 Minutes ago"
+    }
+  ],
+  "products": [
+    {
+      "id": "623456",
+      "title": "Product 1",
+      "price": 1000,
+      "description": "Product 1 description",
+      "image": "/src/images/homeIntro/ProductsCatalog/1.jpg"
+    },
+    {
+      "id": "623457",
+      "title": "Product 2",
+      "price": 2000,
+      "description": "Product 2 description",
+      "image": "/src/images/homeIntro/ProductsCatalog/2.jpg"
+    },
+    {
+      "id": "623458",
+      "title": "Product 3",
+      "price": 3000,
+      "description": "Product 3 description",
+      "image": "/src/images/homeIntro/ProductsCatalog/3.jpg"
+    },
+    {
+      "id": "623459",
+      "title": "Product 3",
+      "price": 3000,
+      "description": "Product 3 description",
+      "image": "/src/images/homeIntro/ProductsCatalog/3.jpg"
     }
   ]
 }

@@ -18,41 +18,60 @@ import styles from "./HomePage.module.scss";
 const cx = classNames.bind(styles);
 
 function HomePage() {
+  let pathApi = "http://localhost:3000";
+
   const [gmail] = useState(localStorage.getItem("gmail") || "");
 
-  const [data, setData] = useState({
-    projects: [],
-    show: null,
-    productsCatalog: [],
-    products: [],
-  });
+  const [data, setData] = useState(null);
+  const [products, setProducts] = useState(null);
+  const [projectShow, setProjectShow] = useState(null);
   const [headerShow, setHeaderShow] = useState("-100");
 
   useEffect(() => {
-    fetch("https://house-clone-api.vercel.app/home")
-      .then((res) => res.json())
-      .then((items) => {
-        setData({
-          projects: items,
-          show: items[0],
-          productsCatalog: items[4]?.productsCatalog || [],
-          products: items[5]?.projects || [],
-        });
-      });
-  }, []);
+    const fetchImages = async () => {
+      try {
+        let projects = await fetch(`${pathApi}/projects`).then((res) =>
+          res.json()
+        );
+        let products = await fetch(`${pathApi}/products`).then((res) =>
+          res.json()
+        );
 
-  const projectList = data.projects.filter(
-    (project) => project.type === "Featured"
-  );
-  const choiceProject = data.projects.find(
-    (project) => project.type === "Editor's Choice"
-  );
+        // const uniqueProjectIds = [...new Set(home.projectIds)];
+        // const uniqueProductIds = [...new Set(home.productIds)];
+        // const responseProjects = await Promise.all(
+        //   uniqueProjectIds.map((id) => fetch(`${pathApi}/projects/${id}`))
+        // );
+
+        // const responseProducts = await Promise.all(
+        //   uniqueProjectIds.map((id) => fetch(`${pathApi}/projects/${id}`))
+        // );
+
+        // const dataArr = await Promise.all(responses.map((res) => res.json()));
+        // const dataArrProduct = await Promise.all(responses.map((res) => res.json()));
+        setData(projects);
+        setProducts(products);
+        setProjectShow(projects[0]);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+    fetchImages();
+  }, [gmail]);
+
+  // const projectList = data.projects.filter(
+  //   (project) => project.type === "Featured"
+  // );
+  // const choiceProject = data.projects.find(
+  //   (project) => project.type === "Editor's Choice"
+  // );
 
   const handleImage = (e) => {
-    setData((prevData) => ({
-      ...prevData,
-      show: projectList[e.target.id - 1],
-    }));
+    data.forEach((project) => {
+      if (project.id == e.target.id) {
+        setProjectShow(project);
+      }
+    });
   };
 
   const overlayRef = useRef(null);
@@ -71,7 +90,7 @@ function HomePage() {
   localStorage.setItem("project-save", null);
 
   const updateFolderData = (newListTitleFolder, newListFolder) => {};
-
+  console.log(products);
   return (
     <>
       <PopUpAddFolder
@@ -125,118 +144,137 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div className={cx("project", "row")}>
-          <div className={cx("project-show", "col l-6")}>
-            {data.show && (
-              <div className={cx("project-show-content")}>
+        <div className={cx("project")}>
+          <div className={cx("project-show")}>
+            {data ? (
+              <div key={data[0].id} className={cx("project-show-content")}>
                 <img
-                  key={data.show.id + 100}
-                  src={data.show.src}
-                  alt={data.show.name}
+                  key={projectShow.id + 100}
+                  src={projectShow.images[0]}
+                  alt={projectShow.title}
                 />
                 <div className={cx("project-description")}>
-                  <h3>{data.show.type}</h3>
-                  <p>{data.show.name}</p>
+                  <h3>{projectShow.type}</h3>
+                  <p>{projectShow.title}</p>
                 </div>
               </div>
-            )}
+            ) : null}
           </div>
-          <div className={cx("project-lists", "col l-2")}>
-            {projectList.map((project) => (
+
+          {data
+            ? data.map((project, index) => {
+                if (index < 3) {
+                  return (
+                    <div key={project.id} className={cx("project-lists-item")}>
+                      <img
+                        key={project.id}
+                        id={project.id}
+                        src={project.images[0]}
+                        alt={project.title}
+                        onMouseOver={handleImage}
+                      />
+                    </div>
+                  );
+                }
+              })
+            : null}
+
+          {data ? (
+            <div className={cx("project-edit")}>
               <img
-                className={cx("project-lists-item")}
-                key={project.id}
-                id={project.id}
-                src={project.src}
-                alt={project.name}
-                onMouseOver={handleImage}
+                key={data[3].id}
+                src={data[3].images[0]}
+                alt={data[3].title}
               />
-            ))}
-          </div>
-          <div className={cx("project-lists", "col l-4")}>
-            {choiceProject && (
-              <div className={cx("project-edit")}>
-                <img
-                  key={choiceProject.id}
-                  src={choiceProject.src}
-                  alt={choiceProject.name}
-                />
-                <div className={cx("project-description")}>
-                  <h3>{choiceProject.type}</h3>
-                  <p>{choiceProject.name}</p>
-                </div>
+              <div className={cx("project-description")}>
+                <h3>{data[3].type}</h3>
+                <p>{data[3].title}</p>
               </div>
-            )}
-          </div>
+            </div>
+          ) : null}
         </div>
         <div className={cx("content", "row")}>
           <div className={cx("content-main", "col l-8")}>
-            {data.products.map((product, index) => (
-              <div key={index} className={cx("content-project")}>
-                <h3 className={cx("content-project-title")}>{product.title}</h3>
-                <p className={cx("content-project-time")}>{product.time}</p>
-                <div className={cx("content-project-preview")}>
-                  <img src={product.mainPicture} alt={product.title} />
-                </div>
-                <div className={cx("content-project-description")}>
-                  <p>{product.description}</p>
-                </div>
-                <ul className={cx("content-project-pictures")}>
-                  {product.pictures.slice(0, 5).map((picture, index) => (
-                    <li key={index} className={cx("content-project-picture")}>
-                      <img src={picture} alt={`Project image ${index + 1}`} />
-                      {index === 4 && product.pictures.length > 5 && (
-                        <>
-                          <div className={cx("content-project-number")}>
-                            +{product.pictures.length - 5}
-                          </div>
-                          <div className={cx("content-project-overlay")}></div>
-                        </>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-                <div className={cx("save-read")}>
-                  <Button
-                    className={cx("save-btn")}
-                    onClick={() => {
-                      overlayRef.current.style.visibility = "visible";
-                      wrapperRef.current.style.visibility = "visible";
-                      localStorage.setItem("project-save", `${product.id}`);
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faFolderOpen} />
-                    Save this Project
-                  </Button>
-                  <Link to={`${product.id}`}>
-                    <Button text className={cx("read-btn")}>
-                      Read More
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            ))}
+            {data
+              ? data.map((product, index) => (
+                  <div key={index} className={cx("content-project")}>
+                    <h3 className={cx("content-project-title")}>
+                      {product.title}
+                    </h3>
+                    <p className={cx("content-project-time")}>{product.time}</p>
+                    <div className={cx("content-project-preview")}>
+                      <img src={product.images[0]} alt={product.title} />
+                    </div>
+                    <div className={cx("content-project-description")}>
+                      <p>{product.paragraph[0]}</p>
+                    </div>
+                    <ul className={cx("content-project-pictures")}>
+                      {product.images.slice(0, 5).map((picture, index) => (
+                        <li
+                          key={index}
+                          className={cx("content-project-picture")}
+                        >
+                          <img
+                            src={picture}
+                            alt={`Project image ${index + 1}`}
+                          />
+                          {index == 4 && product.images.length > 5 && (
+                            <>
+                              <div className={cx("content-project-number")}>
+                                +{product.images.length - 5}
+                              </div>
+                              <div
+                                className={cx("content-project-overlay")}
+                              ></div>
+                            </>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                    <div className={cx("save-read")}>
+                      <Button
+                        className={cx("save-btn")}
+                        onClick={() => {
+                          overlayRef.current.style.visibility = "visible";
+                          wrapperRef.current.style.visibility = "visible";
+                          localStorage.setItem("project-save", `${product.id}`);
+                        }}
+                      >
+                        <FontAwesomeIcon icon={faFolderOpen} />
+                        Save this Project
+                      </Button>
+                      <Link to={`${product.id}`}>
+                        <Button text className={cx("read-btn")}>
+                          Read More
+                        </Button>
+                      </Link>
+                    </div>
+                  </div>
+                ))
+              : null}
           </div>
-          <div className={cx("content-extra", "col l-4")}>
+          <div className={cx("content-extra")}>
             <div className={cx("content-extra-total")}>
-              <div className={cx("products-catalog", "grid wide")}>
+              <div className={cx("products-catalog")}>
                 <h3 className={cx("products-catalog-title")}>
                   Products Catalog
                 </h3>
                 <ul className={cx("products-catalog-items", "row")}>
-                  {data.productsCatalog.map((productCatalog, index) => (
-                    <li
-                      key={index}
-                      className={cx("products-catalog-item", "col l-6")}
-                    >
-                      <a href="#">
-                        <img
-                          src={productCatalog.src}
-                          alt={`Product ${index + 1}`}
-                        />
-                      </a>
-                    </li>
-                  ))}
+                  {products
+                    ? products.map((productCatalog, index) => (
+                        <li
+                          key={index}
+                          className={cx("products-catalog-item", "col l-6")}
+                        >
+                          <a href="#">
+                            <img
+                              src={productCatalog.image}
+                              alt={`Product ${index + 1}`}
+                            />
+                          </a>
+                        </li>
+                      ))
+                    : null}
                 </ul>
               </div>
             </div>

@@ -8,10 +8,31 @@
 
 .content {
   display: flex !important ;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
   align-items: center;
   justify-content: space-between;
 }
 
 .search-bar {
-  width: 500px;
+  width: 40%;
+}
+
+@media (max-width: 723px) {
+  .wrapper {
+    top: 0;
+    transform: none !important;
+  }
+
+  .search-bar {
+    width: 50%;
+  }
+
+  .nav-items {
+    display: none;
+  }
+  .log-sign {
+    display: none;
+  }
 }

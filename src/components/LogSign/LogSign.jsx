@@ -14,7 +14,7 @@ function LogSign({ className, ...props }) {
   return (
     <>
       {user ? (
-        <div className={cx("list-user", className)}>
+        <div className={cx("list-user wrapper", className)}>
           <img
             className={cx("user")}
             src="https://house-clone-api.vercel.app/src/images/user.jpg"
@@ -60,6 +60,7 @@ function LogSign({ className, ...props }) {
           </Link>
         </div>
       )}
+      <div className={cx("wrapper-mobile", className)}>X</div>
     </>
   );
 }

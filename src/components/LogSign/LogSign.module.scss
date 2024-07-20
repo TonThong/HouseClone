@@ -2,6 +2,11 @@
   display: flex;
 }
 
+.wrapper-mobile {
+  display: none;
+  font-size: 2.5rem;
+}
+
 .list-user {
   position: relative;
   display: flex;
@@ -77,4 +82,14 @@
 
 .sign {
   margin: 0 4px;
+}
+
+@media (max-width: 723px) {
+  .wrapper {
+    display: none;
+  }
+
+  .wrapper-mobile {
+    display: block !important;
+  }
 }

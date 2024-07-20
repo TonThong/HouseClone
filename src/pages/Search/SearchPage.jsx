@@ -17,8 +17,10 @@ function SearchPage({ ...props }) {
   const [images, setImages] = useState({});
   const [title, setTitle] = useState({});
 
-  const pathApi = "https://house-clone-api.vercel.app" + path;
-  // const pathApi = "http://localhost:3000" + path;
+  // const pathApi = "https://house-clone-api.vercel.app" + path;
+  // const pathMain = "https://house-clone-api.vercel.app";
+  const pathApi = "http://localhost:3000" + path;
+  const pathMain = "http://localhost:3000";
 
   if (path != location.pathname) {
     setPath(location.pathname);
@@ -29,7 +31,6 @@ function SearchPage({ ...props }) {
       .then((res) => res.json())
       .then((res) => {
         setData(res.data);
-        console.log(data);
       });
   }, [path]);
 
@@ -38,9 +39,7 @@ function SearchPage({ ...props }) {
       try {
         const uniqueProjectIds = [...new Set(data.projects.flat())];
         const responses = await Promise.all(
-          uniqueProjectIds.map((id) =>
-            fetch(`https://house-clone-api.vercel.app/projects/${id}`)
-          )
+          uniqueProjectIds.map((id) => fetch(`${pathMain}/projects/${id}`))
         );
         const dataArr = await Promise.all(responses.map((res) => res.json()));
 
@@ -62,9 +61,8 @@ function SearchPage({ ...props }) {
     };
     fetchImages();
   }, [data]);
-  console.log(title);
-  console.log(images);
 
+  console.log(data);
   return (
     <>
       <Header />

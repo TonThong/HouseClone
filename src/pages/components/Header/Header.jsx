@@ -16,11 +16,11 @@ function Header({ className, style, ...props }) {
       })}
       style={style}
     >
-      <div className={cx("content", "grid wide")}>
+      <div className={cx("content")}>
         <Logo medium>T</Logo>
         <SearchBar className={cx("search-bar")} placeholder="Search Daily" />
-        <NavItems />
-        <LogSign />
+        <NavItems className={cx("nav-items")} />
+        <LogSign className={cx("log-sign")} />
       </div>
     </div>
   );
